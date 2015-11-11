@@ -2,12 +2,12 @@
 
 body {
 	background: rgba(242,242,242,1);
-	font-family:"Neue Haas Unica W01 Light", sans-serif;
+	font-family:"Neue Haas Unica W04 Light", sans-serif;
 	text-align: center;
 }
 
 h1 {
-	font-family: "Neue Haas Unica W04 Medium Lt", sans-serif;	
+	font-family: "Neue Haas Unica W04 Light", sans-serif;	
 	font-size: 2.2em;
 	margin-bottom: -20px;
 }
