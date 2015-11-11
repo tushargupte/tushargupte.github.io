@@ -1,27 +1,26 @@
 
-@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=a52651d9-2bf3-4c15-840b-1b3e5c0ae931&fontids=1492571,1492573");
 
 body {
 	background: rgba(242,242,242,1);
-	font-family: "Neue Haas Unica W01SC Light", sans-serif;
+	font-family:"Neue Haas Unica W01 Light", sans-serif;
 	text-align: center;
 }
 
 h1 {
-	font-family: "Neue Haas Unica W01SC Medium", sans-serif;	
+	font-family: "Neue Haas Unica W04 Medium Lt", sans-serif;	
 	font-size: 2.2em;
 	margin-bottom: -20px;
 }
 
 #title {
-		font-family: "NNeue Haas Unica W01SC Medium", sans-serif;		
+		font-family: "Neue Haas Unica W04 Light", sans-serif;		
 		font-size: 2.2em;
 		margin-bottom: 25px;
 }
 
 .body {
 	font-size:1.125em;
-	font-family: "Neue Haas Unica W01SC Light", sans-serif;
+	font-family: "Neue Haas Unica W04 Light", sans-serif;
 
 }
 a {
