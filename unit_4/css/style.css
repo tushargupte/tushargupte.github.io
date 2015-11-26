@@ -30,7 +30,7 @@ header {
 	background-color: rgb(242,242,242);
 }
 
-section {
+.description {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1.2em;
 	text-align: center;
