@@ -71,14 +71,13 @@ nav {
 	font-size: 1em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 15px;
-	margin-bottom: 20px;
+	padding-top: 1em;
+	margin-bottom: 1.25em;
 }
 
 header {
 	font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 	font-size: 2.2em;
-	margin-bottom: 20px;
 	text-align: center;
 	background-color: rgb(242,242,242);
 	letter-spacing: -0.01em;
@@ -90,12 +89,12 @@ header {
 }
 
 .title {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.625em;
+	padding-bottom: 0.3125em;
 }
 
 .sub-title {
-	padding-bottom: 20px;
+	padding-bottom: 0.625em;
 }
 
 .description {
@@ -103,13 +102,13 @@ header {
 	font-size: 1.2em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.625em;
+	padding-bottom: 0.625em;
 }
 
 .body_main {
-	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-top: 0.625em;
+	padding-bottom: 1em;
 }
 
 footer {
@@ -117,8 +116,8 @@ footer {
 	font-size: 1em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 40px;
-	padding-bottom: 50px;
+	padding-top: 2.5em;
+	padding-bottom: 3em;
 
 }
 
