@@ -10,30 +10,41 @@ src:url("../fonts/1491986/56b738a7-54b9-4e8c-a470-d96972ab3303.eot?#iefix");
 src:url("../fonts/1491986/56b738a7-54b9-4e8c-a470-d96972ab3303.eot?#iefix") format("eot"),url("../fonts/1491986/2418a824-3af2-42d7-a62e-f7a77cf487d1.woff2") format("woff2"),url("../fonts/1491986/86b76db5-9343-473a-a106-60683cec7626.woff") format("woff"),url("../fonts/1491986/2b883332-01dc-4b55-ac6a-d24c84f0e334.ttf") format("truetype"),url("../fonts/1491986/7de50dd1-4a4e-47bf-bb5d-33bf1450649a.svg#7de50dd1-4a4e-47bf-bb5d-33bf1450649a") format("svg");
 }
 
-
-body {
-	background: rgba(242,242,242,1);
-	font-family:"Neue Haas Unica W01 Light", sans-serif;
+nav {
+	font-family: "Neue Haas Unica W01 Light", sans-serif;	
+	font-size: 1em;
 	text-align: center;
+	background-color: rgb(242,242,242);
 }
 
-h1 {
+header {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 2.2em;
-	margin-bottom: -20px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: rgb(242,242,242);
 }
 
-#title {
-		font-family: "Neue Haas Unica W01 Light", sans-serif;		
-		font-size: 2.2em;
-		margin-bottom: 25px;
+#main {
+	text-align: center;
+	background-color: rgb(242,242,242);
 }
 
-.body {
-	font-size:1.125em;
-	font-family: "Neue Haas Unica W01 Light", sans-serif;
+section {
+	font-family: "Neue Haas Unica W01 Light", sans-serif;	
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgb(242,242,242);
+}
+
+footer {
+	font-family: "Neue Haas Unica W01 Light", sans-serif;	
+	font-size: 1em;
+	text-align: center;
+	background-color: rgb(242,242,242);
 
 }
+
 a {
 	color: #000;
 }
