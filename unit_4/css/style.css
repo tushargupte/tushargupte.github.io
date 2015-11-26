@@ -102,7 +102,7 @@ header {
 
 .body_main {
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 footer {
@@ -110,7 +110,7 @@ footer {
 	font-size: 1em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 10px;
+	padding-top: 40px;
 	padding-bottom: 50px;
 
 }
