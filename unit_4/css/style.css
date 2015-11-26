@@ -59,6 +59,11 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-size:16px;
+	background-color: #f2f2f2;
+}
+
 nav {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1em;
