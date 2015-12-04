@@ -111,13 +111,13 @@ img {
 	font-size: 1.2em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 0.625em;
+	padding-top: 1em;
 	padding-bottom: 0.625em;
 }
 
 .body_main {
 	padding-top: 0.625em;
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
 }
 .global_nav {
 	font-size: 1em;
@@ -126,14 +126,16 @@ img {
 
 #two_column {
 	padding:1.25em;
-	max-width: 64em;
+	max-width: 57em;
 	font-size: 1em;
 	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #left {
 	float: left;
-	width: 50%;
+	width: 48%;
 	text-align: left;
 }
 
