@@ -72,7 +72,7 @@ nav {
 	font-size: 1em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 1em;
+	padding-top: 1.5em;
 	margin-bottom: 1.25em;
 }
 
@@ -96,7 +96,7 @@ header {
 #main {
 	display: block;
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	padding-top: 0;
 	padding-bottom: 0;
 }
