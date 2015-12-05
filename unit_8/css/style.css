@@ -196,7 +196,7 @@ a:active {
 /* Minimum width 800px to Maximum width 1024px */
 
 @media only screen and (min-width: 50em) and (max-width: 64em) {
-
+	
 	img {
 
 		width: 94%;
@@ -247,7 +247,7 @@ a:active {
 
 /* Minimum Maximum width 480px */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 30em) {
 
 	img {
 
