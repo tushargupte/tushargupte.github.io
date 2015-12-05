@@ -208,9 +208,9 @@ a:active {
 }
 
 
-/* Minimum width 720px to Maximum width 800px */
+/* Minimum width 640px to Maximum width 800px */
 
-@media only screen and (min-width: 45em) and (max-width: 50em) {
+@media only screen and (min-width: 40em) and (max-width: 50em) {
 	img {
 
 		width: 94%;
@@ -224,9 +224,9 @@ a:active {
 
 }
 
-/* Minimum width 480px to Maximum width 720px */
+/* Minimum width 480px to Maximum width 640px */
 
-@media only screen and (min-width: 30em) and (max-width: 45em) {
+@media only screen and (min-width: 30em) and (max-width: 40em) {
 	img {
 
 		width: 92%;
