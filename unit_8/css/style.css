@@ -81,9 +81,10 @@ header {
 	font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 	font-size: 2.2em;
 	text-align: center;
-	display: block;
 	background-color: rgb(242,242,242);
 	letter-spacing: -0.01em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .title {
@@ -190,16 +191,106 @@ a:active {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 800px) {
 
-	img {width: 768px;
-		margin: 0 1.2em 0 1.2em;
+/* Minimum width 800px to Maximum width 1024px */
+
+@media only screen and (min-width: 50em) and (max-width: 64em) {
+	img {
+
+		width: 94%;
+		margin: 0 3% 0 3%;
 	}
 
 	#two_column {
-		margin: 0 1.2em 0 1.2em;
+		margin: 0 3% 0 3%;
 	}
+
 }
+
+
+/* Minimum width 720px to Maximum width 800px */
+
+@media only screen and (min-width: 45em) and (max-width: 50em) {
+	img {
+
+		width: 94%;
+		margin: 0 3% 0 3%;
+	}
+
+	#two_column {
+		margin: 0 3% 0 3%;
+		font-size: 0.93em;
+	}
+
+}
+
+/* Minimum width 480px to Maximum width 720px */
+
+@media only screen and (min-width: 30em) and (max-width: 45em) {
+	img {
+
+		width: 92%;
+		margin: 0 4% 0 4%;
+	}
+
+	#two_column {
+		margin: 0 4% 0 4%;
+		font-size: 0.87em;
+		line-height: 1.25em;
+	}
+
+}
+
+/* Minimum Maximum width 480px */
+
+@media only screen and (max-width: 30em) {
+	img {
+
+		width: 88%;
+		margin: 0 6% 0 6%;
+	}
+
+	#two_column {
+		margin: 0 6% 0 6%;
+		font-size: .938em;
+		line-height: 1.25em;
+	}
+
+	#left {
+
+		float: none;
+		width: 100%;
+		padding-bottom: 1.5em;
+	}
+
+	#right {
+
+		float: none;
+		width: 100%;
+	}
+
+	
+	#header {
+
+		display: block;
+	}
+
+
+	.title {
+		margin: 0 10% 0 10%;
+		font-size: 85%;
+		line-height: 1.15em;
+	
+	}
+
+	.sub-title {
+		margin: 0 10% 0 10%;
+		font-size: 85%;
+		line-height: 1.15em;
+	}
+
+}
+
 
 
 
