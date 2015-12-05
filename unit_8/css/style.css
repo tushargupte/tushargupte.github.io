@@ -196,6 +196,7 @@ a:active {
 /* Minimum width 800px to Maximum width 1024px */
 
 @media only screen and (min-width: 50em) and (max-width: 64em) {
+
 	img {
 
 		width: 94%;
@@ -212,6 +213,7 @@ a:active {
 /* Minimum width 720px to Maximum width 800px */
 
 @media only screen and (min-width: 45em) and (max-width: 50em) {
+
 	img {
 
 		width: 94%;
@@ -228,6 +230,7 @@ a:active {
 /* Minimum width 480px to Maximum width 720px */
 
 @media only screen and (min-width: 30em) and (max-width: 45em) {
+
 	img {
 
 		width: 92%;
@@ -244,7 +247,8 @@ a:active {
 
 /* Minimum Maximum width 480px */
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 480px) {
+
 	img {
 
 		width: 88%;
