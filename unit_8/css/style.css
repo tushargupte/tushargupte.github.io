@@ -260,7 +260,7 @@ a:active {
 
 	#two_column {
 		margin: 0 4% 0 4%;
-		font-size: 1em;
+		font-size: 0.87em;
 		line-height: 1.25em;
 	}
 
@@ -277,8 +277,8 @@ a:active {
 	}
 
 	.description {
-		font-size: 1em;
-		line-height: 1.25em;
+		font-size: .938em;
+		line-height: 1.35em;
 	}
 
 }
@@ -295,8 +295,8 @@ a:active {
 
 	#two_column {
 		margin: 0 6% 0 6%;
-		font-size: 1em;
-		line-height: 1.25em;
+		font-size: .938em;
+		line-height: 1.35em;
 	}
 
 	#left {
@@ -326,8 +326,8 @@ a:active {
 	}
 
 	.description {
-		font-size: 1em;
-		line-height: 1.25em;
+		font-size: .938em;
+		line-height: 1.35em;
 	}
 
 }
