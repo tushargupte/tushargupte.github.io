@@ -135,7 +135,6 @@ img {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1.2em;
 	text-align: center;
-	background-color: rgb(242,242,242);
 	padding-top: 1em;
 	padding-bottom: 0.625em;
 }
@@ -150,9 +149,10 @@ img {
 }
 
 #two_column {
+	font-family: "Neue Haas Unica W01 Light", sans-serif;	
+	font-size: 1.2em;
 	padding: 1em 0 2em 0;
 	max-width: 54em;
-	font-size: 1em;
 	line-height: 1.2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -260,7 +260,7 @@ a:active {
 
 	#two_column {
 		margin: 0 4% 0 4%;
-		font-size: 0.87em;
+		font-size: 1em;
 		line-height: 1.25em;
 	}
 
@@ -274,6 +274,11 @@ a:active {
 		margin: 0 10% 0 10%;
 		font-size: 85%;
 		line-height: 1.15em;
+	}
+
+	.description {
+		font-size: 1em;
+		line-height: 1.25em;
 	}
 
 }
@@ -318,6 +323,11 @@ a:active {
 		margin: 0 10% 0 10%;
 		font-size: 85%;
 		line-height: 1.15em;
+	}
+
+	.description {
+		font-size: .938em;
+		line-height: 1.35em;
 	}
 
 }
