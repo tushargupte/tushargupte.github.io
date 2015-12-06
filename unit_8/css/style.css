@@ -67,6 +67,13 @@ body {
 	background-color: #f2f2f2;
 }
 
+#menu_icon {
+	display: none;
+	width: 40px;
+	height: 40px;
+	background: url(../images/menu_icon.svg) center;
+}
+
 nav {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1em;
@@ -75,6 +82,16 @@ nav {
 	background-color: rgb(242,242,242);
 	padding-top: 1.5em;
 	margin-bottom: 1.25em;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: center;
+	padding: 0 5px;
 }
 
 header {
