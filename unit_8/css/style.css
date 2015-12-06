@@ -243,9 +243,21 @@ a:active {
 		line-height: 1.25em;
 	}
 
+		.title {
+		margin: 0 10% 0 10%;
+		font-size: 85%;
+		line-height: 1.15em;
+	}
+
+	.sub-title {
+		margin: 0 10% 0 10%;
+		font-size: 85%;
+		line-height: 1.15em;
+	}
+
 }
 
-/* Minimum Maximum width 480px */
+/* Maximum width 480px */
 
 @media only screen and (max-width: 30em) {
 
