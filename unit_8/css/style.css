@@ -319,6 +319,19 @@ a:active {
 		line-height: 1.15em;
 	}
 
+	.project {
+		font-size: 1em;
+	}
+
+	.client {
+		font-size: 1em;
+	}
+
+	.agency {
+		font-size: 1em;
+	}
+
+
 }
 
 
