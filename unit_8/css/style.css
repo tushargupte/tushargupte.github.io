@@ -142,6 +142,11 @@ img {
 	padding-bottom: 1.2em;
 }
 
+.project {
+	font-family: "Neue Haas Unica W01 Medium It", sans-serif;
+	padding-bottom: .5%;
+}
+
 .global_nav {
 	font-size: 1em;
 	padding: 0;
@@ -223,11 +228,6 @@ a:active {
 		margin: 0 auto;
 	}
 
-.project {
-		font-family: "Neue Haas Unica W01 Medium It", sans-serif;
-		padding-bottom: .5%;
-	}
-
 	#two_column {
 		margin: 0 3% 0 3%;
 	}
@@ -252,9 +252,7 @@ a:active {
 	}
 
 	.project {
-		font-family: "Neue Haas Unica W01 Medium It", sans-serif;
 		font-size: 85%;
-		padding-bottom: .5%;
 	}
 
 	.client {
@@ -277,9 +275,7 @@ a:active {
 		margin: 0  auto;
 	}
 		.project {
-		font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 		font-size: 85%;
-		padding-bottom: .5%;
 
 	}
 
@@ -322,9 +318,7 @@ a:active {
 	}
 
 	.project {
-		font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 		font-size: 90%;
-		padding-bottom: .5%;
 	}
 
 	.client {
