@@ -128,7 +128,8 @@ header {
 
 img {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
+	padding-bottom: 1%;
 }
 
 #description {
@@ -183,7 +184,7 @@ img {
 }
 
 
-footer {
+#footer {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1em;
 	text-align: center;
