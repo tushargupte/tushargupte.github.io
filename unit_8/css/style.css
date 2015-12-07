@@ -131,19 +131,17 @@ img {
 	margin: auto;
 }
 
-.description {
-	font-family: "Neue Haas Unica W01 Light", sans-serif;	
+#description {
+	font-family: "Neue Haas Unica W01 Light", sans-serif;
+	display: block;	
 	font-size: 1.2em;
+	line-height: 1.3em;
 	text-align: center;
 	background-color: rgb(242,242,242);
 	padding-top: 1em;
-	padding-bottom: 0.625em;
+	padding-bottom: 1.2em;
 }
 
-.body_main {
-	padding-top: 0.625em;
-	padding-bottom: 1.5em;
-}
 .global_nav {
 	font-size: 1em;
 	padding: 0;
@@ -322,8 +320,5 @@ a:active {
 	}
 
 }
-
-
-
 
 
