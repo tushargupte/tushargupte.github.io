@@ -223,6 +223,13 @@ a:active {
 		margin: 0 auto;
 	}
 
+	#description {
+
+		text-align: left;
+		margin: 0 3% 0 3%;
+
+	}
+
 	#two_column {
 		margin: 0 3% 0 3%;
 	}
@@ -240,6 +247,13 @@ a:active {
 		margin: 0 auto;
 	}
 
+	#description {
+
+		text-align: left;
+		margin: 0 3% 0 3%;
+
+	}
+
 	#two_column {
 		margin: 0 3% 0 3%;
 		font-size: .93em;
@@ -247,6 +261,7 @@ a:active {
 	}
 
 	.project {
+		font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 		font-size: 85%;
 	}
 
@@ -270,7 +285,15 @@ a:active {
 		margin: 0  auto;
 	}
 
+	#description {
+
+		text-align: left;
+		margin: 0 4% 0 4%;
+
+	}
+
 		.project {
+		font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 		font-size: 85%;
 	}
 
@@ -312,7 +335,15 @@ a:active {
 		margin: 0 auto;
 	}
 
+	#description {
+
+		text-align: left;
+		margin: 0 6% 0 6%;
+
+	}
+
 	.project {
+		font-family: "Neue Haas Unica W01 Medium It", sans-serif;	
 		font-size: 90%;
 	}
 
