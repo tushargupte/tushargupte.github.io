@@ -143,7 +143,6 @@ img {
 }
 
 .project {
-	font-family: "Neue Haas Unica W01 Medium It", sans-serif;
 	padding-bottom: .5%;
 }
 
@@ -278,9 +277,9 @@ a:active {
 		width: 100%;
 		margin: 0  auto;
 	}
-		.project {
+		
+	.project {
 		font-size: 85%;
-
 	}
 
 	.client {
