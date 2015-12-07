@@ -330,7 +330,7 @@ a:active {
 	}
 
 	#two_column {
-		margin: 0 7% 0 6%;
+		margin: 0 6% 0 5%;
 		font-size: 85%;
 		line-height: 125%;
 	}
@@ -338,7 +338,7 @@ a:active {
 	#left {
 
 		float: left;
-		width: 47%;
+		width: 46%;
 		padding-bottom: 1.5em;
 	}
 
