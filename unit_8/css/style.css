@@ -228,6 +228,10 @@ a:active {
 		margin: 0 auto;
 	}
 
+	.project {
+		font-size: 85%;
+	}
+
 	#two_column {
 		margin: 0 3% 0 3%;
 	}
