@@ -243,6 +243,7 @@ a:active {
 	#two_column {
 		margin: 0 3% 0 3%;
 		font-size: .93em;
+		line-height: 1.313em;
 	}
 
 	.project {
@@ -269,10 +270,22 @@ a:active {
 		margin: 0  auto;
 	}
 
+		.project {
+		font-size: 85%;
+	}
+
+	.client {
+		font-size: 85%;
+	}
+
+	.agency {
+		font-size: 85%;
+	}
+
 	#two_column {
 		margin: 0 4% 0 4%;
-		font-size: 0.87em;
-		line-height: 125%;
+		font-size: 0.938em;
+		line-height: 1.313em;
 	}
 
 		.title {
@@ -287,18 +300,6 @@ a:active {
 		line-height: 1.15em;
 	}
 
-	.project {
-		font-size: 85%;
-	}
-
-	.client {
-		font-size: 85%;
-	}
-
-	.agency {
-		font-size: 85%;
-	}
-
 }
 
 /* Maximum width 480px */
@@ -311,12 +312,24 @@ a:active {
 		margin: 0 auto;
 	}
 
-	#two_column {
-		margin: 0 6% 0 6%;
-		font-size: 1em;
-		line-height: 125%;
+	.project {
+		font-size: 90%;
 	}
-	
+
+	.client {
+		font-size: 90%;
+	}
+
+	.agency {
+		font-size: 90%;
+	}
+
+	#two_column {
+		margin: 0 12% 0 12%;
+		font-size: 1em;
+		line-height: 1.25em;
+	}
+
 	#left {
 
 		float: none;
@@ -342,19 +355,6 @@ a:active {
 		font-size: 85%;
 		line-height: 1.15em;
 	}
-
-	.project {
-		font-size: 90%;
-	}
-
-	.client {
-		font-size: 90%;
-	}
-
-	.agency {
-		font-size: 90%;
-	}
-
 
 }
 
