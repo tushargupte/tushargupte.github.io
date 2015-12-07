@@ -360,6 +360,13 @@ a:active {
 		line-height: 1.15em;
 	}
 
+	#footer {
+		margin: 0 6% 0 5%;
+		font-size: 85%;
+		line-height: 125%;
+
+	}
+
 }
 
 
