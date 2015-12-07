@@ -242,7 +242,7 @@ a:active {
 
 	#two_column {
 		margin: 0 3% 0 3%;
-		font-size: 0.93em;
+		font-size: .93em;
 	}
 
 	.project {
@@ -288,15 +288,15 @@ a:active {
 	}
 
 	.project {
-		font-size: 1em;
+		font-size: 90%;
 	}
 
 	.client {
-		font-size: 1em;
+		font-size: 90%;
 	}
 
 	.agency {
-		font-size: 1em;
+		font-size: 90%;
 	}
 
 }
