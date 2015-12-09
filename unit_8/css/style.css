@@ -106,7 +106,7 @@ header {
 }
 
 .title {
-	padding-top: 0.625em;
+	padding-top: 1em;
 	padding-bottom: 0.3125em;
 	display: inline-block;
 	float: center;
@@ -139,7 +139,6 @@ img {
 	line-height: 1.3em;
 	text-align: center;
 	background-color: rgb(242,242,242);
-	padding-top: 1em;
 	padding-bottom: 1.2em;
 }
 
@@ -150,6 +149,32 @@ img {
 .global_nav {
 	font-size: 1em;
 	padding: 0;
+	max-width: 54em;
+}
+
+#nav_container {
+
+	max-width: 64em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.nav_projects {
+	float: left;
+	display: inline-block;
+}
+
+.nav_resume {
+	float: left;
+	display: inline-block;
+	padding-left: 1em;
+}
+
+.nav_contact {
+	float: right;
+	display: inline-block;
 }
 
 #two_column {
@@ -222,6 +247,11 @@ a:active {
 
 @media only screen and (min-width: 50em) and (max-width: 64em) {
 	
+	.title {
+
+		padding-top: 1em;
+	}
+
 	img {
 
 		width: 100%;
@@ -232,12 +262,22 @@ a:active {
 		margin: 0 3% 0 3%;
 	}
 
+	#nav_container {
+
+		margin: 0 3% 0 3%;
+	}
+
 }
 
 
 /* Minimum width 720px to Maximum width 800px */
 
 @media only screen and (min-width: 45em) and (max-width: 50em) {
+
+	.title {
+
+		padding-top: 1em;
+	}
 
 	img {
 
@@ -261,6 +301,12 @@ a:active {
 
 	.agency {
 		font-size: 85%;
+	}
+
+	#nav_container {
+
+		margin: 0 3% 0 3%;
+		font-size: 0.938em;
 	}
 
 }
@@ -296,7 +342,7 @@ a:active {
 	.title {
 		margin: 0 10% 0 10%;
 		font-size: 85%;
-		line-height: 1.15em;
+		padding-top: 1em;
 	}
 
 	.sub-title {
@@ -305,11 +351,22 @@ a:active {
 		line-height: 1.15em;
 	}
 
+	#nav_container {
+
+		margin: 0 4% 0 4%;
+		font-size: 0.938em;
+	}
+
 }
 
 /* Maximum width 480px */
 
 @media only screen and (max-width: 30em) {
+
+	.title {
+
+		padding-top: 1em;
+	}
 
 	img {
 
@@ -358,6 +415,12 @@ a:active {
 		margin: 0 10% 0 10%;
 		font-size: 85%;
 		line-height: 1.15em;
+	}
+
+	#nav_container {
+
+		margin: 0 6% 0 5%;
+		font-size: 85%;
 	}
 
 }
