@@ -194,17 +194,20 @@ img {
 .nav_projects {
 	float: left;
 	display: inline-block;
+	padding-right: .5em;
+	padding-left: .5em;
 }
 
 .nav_contact {
 	float: right;
 	display: inline-block;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 .nav_resume {
 	float: right;
 	display: inline-block;
-	padding-right: 1em;
 }
 
 #two_column {
