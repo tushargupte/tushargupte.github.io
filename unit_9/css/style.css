@@ -317,6 +317,10 @@ a:active {
 		background-color: rgba(242,242,242,.9);
 	}
 
+	#description {
+		font-size: 85%;
+	}
+
 	img {
 
 		width: 100%;
