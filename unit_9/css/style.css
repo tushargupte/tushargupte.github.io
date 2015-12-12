@@ -109,38 +109,49 @@ li {
 	display: block;
 	max-width: 64em;
 	margin: auto;
-	padding-top: 0;
+	padding-top: 1em;
 	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .row1_image_left {
 
+	display: block;
 	float: left;
 	width: 49%;
 	padding-top: 8.85em;
-	border: 0;
+	padding-left: 1%;
+	padding-bottom: .5%;
 }
 
 .row1_image_right {
 
+	display: block;
 	float: right;
 	width: 49%;
 	padding-top: 8.85em;
-	border: 0;
+	padding-right: 0;
+	padding-bottom: .5%;
 }
 
 .row2_image_left {
 
+	display: block;
 	float: left;
 	width: 49%;
-	border: 0;
+	padding-top: .5%;
+	padding-right: 1%;
+	padding-bottom: .5%;
 }
 
 .row2_image_right {
 
+	display: block;
 	float: right;
 	width: 49%;
-	border: 0;
+	padding-top: .5%;
+	padding-bottom: .5%;
 }
 
 img {
