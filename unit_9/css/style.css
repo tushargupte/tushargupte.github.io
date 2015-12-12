@@ -109,29 +109,27 @@ li {
 	display: block;
 	max-width: 64em;
 	margin: auto;
-	padding-top: 1em;
-	padding-bottom: 0;
-	padding-left: 0;
-	padding-right: 0;
+	line-height: 0;
 }
 
 .row1_image_left {
 
 	display: block;
 	float: left;
-	width: 49%;
-	padding-top: 8.85em;
-	padding-left: 1%;
+	width: 50%;
+	padding-top: 9.85em;
+	margin: 0 -9px;
 	padding-bottom: .5%;
+
 }
 
 .row1_image_right {
 
 	display: block;
 	float: right;
-	width: 49%;
-	padding-top: 8.85em;
-	padding-right: 0;
+	width: 50%;
+	padding-top: 9.85em;
+	margin: 0 -9px;
 	padding-bottom: .5%;
 }
 
@@ -139,19 +137,20 @@ li {
 
 	display: block;
 	float: left;
-	width: 49%;
+	width: 50%;
 	padding-top: .5%;
-	padding-right: 1%;
 	padding-bottom: .5%;
+	margin: 0 -9px;
 }
 
 .row2_image_right {
 
 	display: block;
 	float: right;
-	width: 49%;
+	width: 50%;
 	padding-top: .5%;
 	padding-bottom: .5%;
+	margin: 0 -9px;
 }
 
 img {
@@ -159,6 +158,7 @@ img {
 	width: 100%;
 	padding-bottom: 1%;
 	margin: 0 auto;
+
 }
 
 #description {
