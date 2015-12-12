@@ -234,6 +234,10 @@ a:active {
 
 @media only screen and (min-width: 50em) and (max-width: 64em) {
 	
+	header {
+		background-color: rgba(242,242,242,.9);
+	}
+
 	.title {
 
 		padding-top: 1em;
@@ -264,6 +268,8 @@ a:active {
 	header {
 	
 	height: 8.85em;
+	background-color: rgba(242,242,242,.9);
+
 	
 	}
 
@@ -306,6 +312,10 @@ a:active {
 /* Minimum width 480px to Maximum width 720px */
 
 @media only screen and (min-width: 30em) and (max-width: 45em) {
+
+	header {
+		background-color: rgba(242,242,242,.9);
+	}
 
 	img {
 
@@ -353,11 +363,13 @@ a:active {
 		font-size: 2em;
 		padding-top: 1.3em;
 		margin: 0 10% 0 10%;
+	}
 
+	header {
+		background-color: rgba(242,242,242,.9);
 	}
 
 	#nav_container {
-
 		margin: 0 6% 0 5%;
 		font-size: 85%;
 	}
