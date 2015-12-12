@@ -72,7 +72,7 @@ header {
 	font-size: 1em;
 	text-align: center;
 	display: block;
-	background-color: rgb(242,242,242);
+	background-color: rgba(242,242,242,.9);
 	padding-top: 1em;
 	margin-bottom: 1.25em;
 	position: fixed;
