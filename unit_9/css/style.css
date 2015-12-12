@@ -120,6 +120,8 @@ li {
 	padding-left: 1%;
 	padding-top: 8.85em;
 	padding-bottom: .5%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .row1_image_right {
@@ -129,6 +131,8 @@ li {
 	padding-left: 1%;
 	padding-top: 8.85em;
 	padding-bottom: .5%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .row2_image_left {
@@ -137,6 +141,8 @@ li {
 	width: 49%;
 	padding-left: 1%;
 	padding-bottom: .5%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .row2_image_right {
@@ -145,6 +151,8 @@ li {
 	width: 49%;
 	padding-left: 1%;
 	padding-bottom: .5%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 img {
