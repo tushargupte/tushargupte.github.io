@@ -100,7 +100,7 @@ li {
 	letter-spacing: -0.01em;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
-	padding-top: 1.5em;
+	padding-top: 1em;
 	padding-bottom: 0.625em;
 }
 
@@ -118,8 +118,8 @@ li {
 	float: left;
 	width: 49%;
 	padding-left: 1%;
+	padding-top: 8.85em;
 	padding-bottom: .5%;
-	padding-top: 12.85em;
 }
 
 .row1_image_right {
@@ -127,8 +127,8 @@ li {
 	float: right;
 	width: 49%;
 	padding-left: 1%;
+	padding-top: 8.85em;
 	padding-bottom: .5%;
-	padding-top: 12.85em;
 }
 
 .row2_image_left {
@@ -150,7 +150,6 @@ li {
 img {
 
 	width: 100%;
-	display: block;
 	padding-bottom: 1%;
 }
 
@@ -395,7 +394,6 @@ a:active {
 		margin: 0 4% 0 4%;
 		font-size: 0.938em;
 	}
-
 }
 
 /* Maximum width 480px */
@@ -465,11 +463,9 @@ a:active {
 
 		float: none;
 		width: 100%;
-		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
-		padding-bottom: .5%;
-		padding-top: .5%
+		padding-top: .5%;
 	}
 
 	.row1_image_left {
@@ -478,18 +474,15 @@ a:active {
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
-		margin: auto;
-		padding-bottom: .5%;
+		padding-top: 8.85em;
 	}
 
 	.row2_image_right {
 
 		float: none;
 		width: 100%;
-		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
-		padding-bottom: .5%;
 		padding-top: .5%;
 	}
 
@@ -497,10 +490,8 @@ a:active {
 
 		float: none;
 		width: 100%;
-		margin: auto;
 		padding-left: 0;
 		padding-right: 0;
-		padding-bottom: .5%;
 		padding-top: .5%;
 	}
 
