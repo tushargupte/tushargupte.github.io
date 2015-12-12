@@ -104,17 +104,53 @@ li {
 	padding-bottom: 0.625em;
 }
 
+
 #main {
 	display: block;
-	width: auto;
+	max-width: 64em;
 	margin: auto;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
+.row1_image_left {
+
+	float: left;
+	width: 49%;
+	padding-left: 1%;
+	padding-bottom: .5%;
+	padding-top: 12.85em;
+}
+
+.row1_image_right {
+
+	float: right;
+	width: 49%;
+	padding-left: 1%;
+	padding-bottom: .5%;
+	padding-top: 12.85em;
+}
+
+.row2_image_left {
+
+	float: left;
+	width: 49%;
+	padding-left: 1%;
+	padding-bottom: .5%;
+}
+
+.row2_image_right {
+
+	float: right;
+	width: 49%;
+	padding-left: 1%;
+	padding-bottom: .5%;
+}
+
 img {
+
+	width: 100%;
 	display: block;
-	margin: 0 auto;
 	padding-bottom: 1%;
 }
 
@@ -146,12 +182,6 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 
-}
-
-.nav_home {
-	float: left;
-	display: inline-block;
-	padding-right: 1em;
 }
 
 .nav_projects {
@@ -429,6 +459,41 @@ a:active {
 
 		float: right;
 		width: 50%;
+	}
+
+	.row1_image_right {
+
+		float: none;
+		width: 100%;
+		margin: auto;
+		padding-bottom: .5%;
+		padding-top: .5%
+	}
+
+	.row1_image_left {
+
+		float: none;
+		width: 100%;
+		margin: auto;
+		padding-bottom: .5%;
+	}
+
+	.row2_image_right {
+
+		float: none;
+		width: 100%;
+		margin: auto;
+		padding-bottom: .5%;
+		padding-top: .5%;
+	}
+
+	.row2_image_left {
+
+		float: none;
+		width: 100%;
+		margin: auto;
+		padding-bottom: .5%;
+		padding-top: .5%;
 	}
 
 
