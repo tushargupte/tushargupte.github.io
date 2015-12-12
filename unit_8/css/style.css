@@ -105,16 +105,12 @@ header {
 	margin-right: auto;
 }
 
-.title {
-	padding-top: 1em;
-	padding-bottom: 0.3125em;
-	display: inline-block;
-	float: center;
-}
-
 .sub-title {
+	padding-top: 1em;
 	padding-bottom: 0.625em;
 	display: inline-block;
+	float: center;
+	line-height: 110%;
 	float: center;
 }
 
