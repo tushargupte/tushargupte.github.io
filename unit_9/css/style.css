@@ -466,6 +466,8 @@ a:active {
 		float: none;
 		width: 100%;
 		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
 		padding-bottom: .5%;
 		padding-top: .5%
 	}
@@ -474,6 +476,8 @@ a:active {
 
 		float: none;
 		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
 		margin: auto;
 		padding-bottom: .5%;
 	}
@@ -483,6 +487,8 @@ a:active {
 		float: none;
 		width: 100%;
 		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
 		padding-bottom: .5%;
 		padding-top: .5%;
 	}
@@ -492,6 +498,8 @@ a:active {
 		float: none;
 		width: 100%;
 		margin: auto;
+		padding-left: 0;
+		padding-right: 0;
 		padding-bottom: .5%;
 		padding-top: .5%;
 	}
