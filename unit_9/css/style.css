@@ -118,7 +118,6 @@ li {
 	float: left;
 	width: 50%;
 	padding-top: 9.85em;
-	margin: 0 -9px;
 	padding-bottom: .5%;
 
 }
@@ -129,7 +128,6 @@ li {
 	float: right;
 	width: 50%;
 	padding-top: 9.85em;
-	margin: 0 -9px;
 	padding-bottom: .5%;
 }
 
@@ -140,7 +138,6 @@ li {
 	width: 50%;
 	padding-top: .5%;
 	padding-bottom: .5%;
-	margin: 0 -9px;
 }
 
 .row2_image_right {
@@ -150,7 +147,6 @@ li {
 	width: 50%;
 	padding-top: .5%;
 	padding-bottom: .5%;
-	margin: 0 -9px;
 }
 
 img {
@@ -596,9 +592,7 @@ a:active {
 
 		float: none;
 		width: 100%;
-		padding-top: 11em;
-		padding-left: 0;
-		padding-right: 0;
+		margin: 0 -9px;
 	}
 
 	.row1_image_right {
@@ -606,8 +600,7 @@ a:active {
 		float: none;
 		width: 100%;
 		padding-top: 0;
-		padding-left: 0;
-		padding-right: 0;
+		margin: 0 -9px;
 
 	}
 
@@ -615,16 +608,14 @@ a:active {
 
 		float: none;
 		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
+		margin: 0 -9px;
 	}
 
 	.row2_image_left {
 
 		float: none;
 		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
+		margin: 0 -9px;
 	}
 
 
