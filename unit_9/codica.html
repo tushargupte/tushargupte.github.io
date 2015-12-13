@@ -56,13 +56,13 @@
 
 	<section id="main">
 
-	<img src="images/codica_01_1024.jpg" title="Design Inspiration for Codica" alt="Design_Inspiration">
+	<img data-src="images/codica_01_1024.jpg" title="Design Inspiration for Codica" alt="Design_Inspiration">
 
-	<img src="images/codica_02_1024.jpg" title="Codica Logo Lockup" alt="Codica Logo Lockup">
+	<img data-src="images/codica_02_1024.jpg" title="Codica Logo Lockup" alt="Codica Logo Lockup">
 
-	<img src="images/codica_03_1024.jpg" title="Codica Typography and Colors" alt="Codica Typography and Colors">
+	<img data-src="images/codica_03_1024.jpg" title="Codica Typography and Colors" alt="Codica Typography and Colors">
 
-	<img src="images/codica_04_1024.jpg" title="Codica Enviornmental Graphics" alt="Codica Enviornmental Graphics">
+	<img data-src="images/codica_04_1024.jpg" title="Codica Enviornmental Graphics" alt="Codica Enviornmental Graphics">
 
 	</section>
 
@@ -91,5 +91,17 @@
 	</footer>
 
 </div>
+
+<script>
+	
+	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+        img.removeAttribute('data-src');
+    };
+});
+	
+</script>
+
 </body>
 </html>
