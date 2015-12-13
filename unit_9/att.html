@@ -38,7 +38,7 @@
 
 			</li>
 
-				<section class="title">3&mdash;AT&T<br>
+				<section class="title">3&mdash;AT&amp;T<br>
 				Corporate Fleet Design</section>
 
 		</div>
@@ -49,24 +49,36 @@
 
 	<section id="description">
 
-		<p class="client">Client&mdash;AT&T</p>
+		<p class="client">Client&mdash;AT&amp;T</p>
 		<p class="agency">Agency&mdash;Interbrand, New York</p>
 
 	</section>
 
 	<section id="main">
 
-	<img data-src="images/att_01_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_01_1024.jpg">	
+		<img src="images/att_01_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
-	<img data-src="images/att_03_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_03_1024.jpg">	
+		<img src="images/att_03_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
-	<img data-src="images/att_04_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_04_1024.jpg">
+		<img src="images/att_04_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
-	<img data-src="images/att_05_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_05_1024.jpg">
+		<img src="images/att_05_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
-	<img data-src="images/att_06_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_06_1024.jpg">
+		<img src="images/att_06_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
-	<img data-src="images/att_07_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		<noscript data-src="images/att_07_1024.jpg">
+		<img src="images/att_07_1024.jpg" title="Corporate Fleet Design" alt="Corporate Fleet Design">
+		</noscript>
 
 	</section>
 
@@ -74,12 +86,12 @@
 
 		<aside id="left">
 		<p>Problem<p>
-		<p>As an agency of record for AT&T, Interbrand was asked to explore new ideas for the brand that would give it a more contemporary look & feel, starting with their newly acquired fleet of natural-gas powered Chevy vans.</p>
+		<p>As an agency of record for AT&amp;T, Interbrand was asked to explore new ideas for the brand that would give it a more contemporary look &amp; feel, starting with their newly acquired fleet of natural-gas powered Chevy vans.</p>
 		</aside>
 
 		<article id="right">
 		<p>Solution<p>
-		<p>The AT&T logo with it's ubiquitous globe and stripes, was used as a starting point for design explorations. By enlarging and overlaying the stripes with colored bands, a new visual pattern was created. This was then applied to the vans with a two-tiered system, where a standard pattern would be used for corporate vans and a more flexible pattern style could be used for U-verse vans that would feature premium content.</p>
+		<p>The AT&amp;T logo with it's ubiquitous globe and stripes, was used as a starting point for design explorations. By enlarging and overlaying the stripes with colored bands, a new visual pattern was created. This was then applied to the vans with a two-tiered system, where a standard pattern would be used for corporate vans and a more flexible pattern style could be used for U-verse vans that would feature premium content.</p>
 		</article>
 		
 	</section>
@@ -98,11 +110,14 @@
 
 <script>
 	
-	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = function() {
-        img.removeAttribute('data-src');
-    };
+[].forEach.call(document.querySelectorAll('noscript'), function(noscript) {
+	var img = new Image();
+	img.setAttribute('data-src', '');
+	img.parentNode.insertBefore(img, noscript);
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+	img.src = noscript.getAttribute('data-src');
 });
 	
 </script>
