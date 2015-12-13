@@ -52,9 +52,7 @@
 				
 				<a href="codica.html">
 
-				<noscript data-src="images/codica_bg_640.jpg">
-				<img src="images/codica_bg_640.jpg" title="1-Codica" alt="Codica"></a>
-				</noscript>
+				<img data-src="images/codica_bg_640.jpg" title="1-Codica" alt="Codica"></a>
 
 			</div>
 
@@ -62,10 +60,7 @@
 				
 				<a href="humana.html">
 
-					<noscript data-src="images/humana_bg_640.jpg">
-
-						<img src="images/humana_bg_640.jpg" title="2-Humana" alt="Humana">
-					</noscript>
+						<img data-src="images/humana_bg_640.jpg" title="2-Humana" alt="Humana">
 				</a>
 			</div>
 
@@ -73,9 +68,7 @@
 				
 				<a href="att.html">
 
-					<noscript data-src="images/att_bg_640.jpg">
-						<img src="images/att_bg_640.jpg" title="3-AT&amp;T" alt="AT&amp;T">
-					</noscript>
+						<img data-src="images/att_bg_640.jpg" title="3-AT&amp;T" alt="AT&amp;T">
 				</a>
 			</div>
 
@@ -83,20 +76,14 @@
 				
 				<a href="dfw.html">
 
-					<noscript data-src="images/dfw_bg_640.jpg">
-
-						<img src="images/dfw_bg_640.jpg" title="4-Dallas Fort Worth Airport" alt="4-Dallas Fort Worth">
-					</noscript>
+						<img data-src="images/dfw_bg_640.jpg" title="4-Dallas Fort Worth Airport" alt="4-Dallas Fort Worth">
 				</a>
 			</div>
 
 			<div class="row2_image_left">
 				
 				<a href="blmbrg.html">
-
-					<noscript data-src="images/blmbrg_bg_640.jpg">
-						<img src="images/blmbrg_bg_640.jpg" title="5-Bloomberg" alt="Bloomberg">
-					</noscript>
+						<img data-src="images/blmbrg_bg_640.jpg" title="5-Bloomberg" alt="Bloomberg">
 				</a>
 			</div>
 
@@ -104,19 +91,14 @@
 				
 				<a href="ibm_cld.html">
 
-					<noscript data-src="images/ibm_bg_640.jpg">
-						<img src="images/ibm_bg_640.jpg" title="6-IBM Cloud" alt="IBM Cloud">
-					</noscript>
+						<img data-src="images/ibm_bg_640.jpg" title="6-IBM Cloud" alt="IBM Cloud">
 				</a>
 			</div>
 
 			<div class="row2_image_left">
 				
 				<a href="#">
-
-					<noscript data-src="images/intranet_bg_640.jpg">
-						<img src="images/intranet_bg_640.jpg" title="7-IBM Intranet" alt="IBM Intranet">
-					</noscript>
+						<img data-src="images/intranet_bg_640.jpg" title="7-IBM Intranet" alt="IBM Intranet">
 				</a>
 			</div>
 
@@ -124,9 +106,7 @@
 				
 				<a href="#">
 
-					<noscript data-src="">
-					<img src="images/fora_bg_640.jpg" title="8-FORA.tv" alt="FORA.tv">
-					</noscript>
+					<img data-src="images/fora_bg_640.jpg" title="8-FORA.tv" alt="FORA.tv">
 				</a>
 			</div>
 
@@ -142,16 +122,12 @@
 
 <script>
 	
-[].forEach.call(document.querySelectorAll('noscript'), function(noscript) {
-	var img = new Image();
-	img.setAttribute('data-src', '');
-	img.parentNode.insertBefore(img, noscript);
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
 	img.onload = function() {
 		img.removeAttribute('data-src');
 	};
-	img.src = noscript.getAttribute('data-src');
 });
-	
 </script>
 
 </body>
