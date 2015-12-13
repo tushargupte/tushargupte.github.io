@@ -5,6 +5,8 @@
 	<title>Humana Brand Applications: Tushar Gupte</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css" type="text/css"  />
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="preimageload.min.js"></script>
 
 </head>
 
@@ -56,10 +58,9 @@
 
 	<section id="main">
 
-	<img data-src="images/humana_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
-	<img data-src="images/humana_2_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
-	<img data-src="images/humana_3_bg_1024.jpg" title="Insurance Card" alt="Insurance Card">
-	<img data-src="images/humana_4_bg_1024.jpg" title="Brand Applications" alt="Brand Applications">
+	<img src="images/humana_bg_1024.jpg" data-pil-src="images/humana_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
+
+	<img src="images/humana_2_bg_1024.jpg" data-pil-src="images/humana_2_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
 
 	</section>
 
@@ -90,14 +91,11 @@
 </div>
 
 <script>
-	
-	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = function() {
-        img.removeAttribute('data-src');
-    };
+$(function(){
+	$(window).scroll(function(){
+		$.PreImageLoad();
+	});
 });
-	
 </script>
 </body>
 </html>
