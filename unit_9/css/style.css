@@ -564,7 +564,7 @@ a:active {
 
 		float: none;
 		width: 100%;
-		margin: 0 -9px;
+		margin: 0 -.625em;
 	}
 
 	.row1_image_right {
@@ -572,7 +572,7 @@ a:active {
 		float: none;
 		width: 100%;
 		padding-top: 0;
-		margin: 0 -9px;
+		margin: 0 -.625em;
 
 	}
 
@@ -580,14 +580,14 @@ a:active {
 
 		float: none;
 		width: 100%;
-		margin: 0 -9px;
+		margin: 0 -.625em;
 	}
 
 	.row2_image_left {
 
 		float: none;
 		width: 100%;
-		margin: 0 -9px;
+		margin: 0 -.625em;
 	}
 
 
