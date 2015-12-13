@@ -309,6 +309,39 @@ a:active {
 		margin: 0 3% 0 3%;
 	}
 
+		#main {
+		
+		padding-left: 2%;
+		padding-right: 4%;
+		padding-top: 1em;
+	
+	}
+
+	#img {
+
+		width: 48%;
+	}
+
+	.row1_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row1_image_right {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_right {
+
+		margin: 0 -1%;
+	}
+
 }
 
 
@@ -357,6 +390,40 @@ a:active {
 
 		margin: 0 3% 0 3%;
 	}
+
+	#main {
+
+		padding-left: 2%;
+		padding-right: 4%;
+		padding-top: 1em;
+	
+	}
+
+	#img {
+
+		width: 48%;
+	}
+
+	.row1_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row1_image_right {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_right {
+
+		margin: 0 -1%;
+	}
+
 
 }
 
@@ -409,6 +476,38 @@ a:active {
 		margin: 0 4% 0 4%;
 		font-size: 0.938em;
 	}
+
+	#main {
+		padding-left: 2%;
+		padding-right: 4%;
+		padding-top: 1em;
+	}
+
+	#img {
+
+		width: 48%;
+	}
+
+	.row1_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row1_image_right {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_left {
+
+		margin: 0 -1%;
+	}
+
+	.row2_image_right {
+
+		margin: 0 -1%;
+	}
+
 }
 
 /* Maximum width 480px */
