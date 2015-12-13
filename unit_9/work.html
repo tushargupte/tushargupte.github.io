@@ -50,52 +50,53 @@
 
 			<div class="row1_image_left">
 				
-				<a href="codica.html"><img src="images/codica_bg_640.jpg"></a>
+				<a href="codica.html">
+
+				<img data-src="images/codica_bg_640.jpg" title="1-Codica" alt="Codica"></a>
 
 			</div>
 
 			<div class="row1_image_right">
 				
-				<a href="humana.html"><img src="images/humana_bg_640.jpg"></a>
+				<a href="humana.html">
 
+						<img data-src="images/humana_bg_640.jpg" title="2-Humana" alt="Humana"></a>
 			</div>
 
 			<div class="row2_image_left">
 				
-				<a href="att.html"><img data-src="images/att_bg_640.jpg"></a>
+				<a href="att.html">
 
+						<img data-src="images/att_bg_640.jpg" title="3-AT&amp;T" alt="AT&amp;T"></a>
 			</div>
 
 			<div class="row2_image_right">
 				
-				<a href="#"><img data-src="images/dfw_bg_640.jpg"></a>
-
+				<a href="dfw.html"><img data-src="images/dfw_bg_640.jpg" title="4-Dallas Fort Worth Airport" alt="4-Dallas Fort Worth"></a>
 			</div>
 
 			<div class="row2_image_left">
 				
-				<p><a href="#"><img data-src="images/blmbrg_bg_640.jpg"></a></p>
-
+				<a href="blmbrg.html"><img data-src="images/blmbrg_bg_640.jpg" title="5-Bloomberg" alt="Bloomberg"></a>
+				
 			</div>
 
 			<div class="row2_image_right">
 				
-				<p><a href="#"><img data-src="images/ibm_bg_640.jpg"></a></p>
-
+				<a href="ibm_cld.html"><img data-src="images/ibm_bg_640.jpg" title="6-IBM Cloud" alt="IBM Cloud"></a>
 			</div>
 
 			<div class="row2_image_left">
 				
-				<p><a href="#"><img data-src="images/intranet_bg_640.jpg"></a></p>
-
+				<a href="#"><img data-src="images/intranet_bg_640.jpg" title="7-IBM Intranet" alt="IBM Intranet"></a>
+				
 			</div>
 
 			<div class="row2_image_right">
 				
-				<p><a href="#"><img data-src="images/fora_bg_640.jpg"></a></p>
-
+				<a href="#"><img data-src="images/fora_bg_640.jpg" title="8-FORA.tv" alt="FORA.tv"></a>
+				
 			</div>
-
 
 	</section>
 
@@ -109,13 +110,12 @@
 
 <script>
 	
-	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-    img.setAttribute('src', img.getAttribute('data-src'));
-    img.onload = function() {
-        img.removeAttribute('data-src');
-    };
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
 });
-	
 </script>
 
 </body>
