@@ -56,10 +56,10 @@
 
 	<section id="main">
 
-	<img src="images/humana_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
-	<img src="images/humana_2_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
-	<img src="images/humana_3_bg_1024.jpg" title="Insurance Card" alt="Insurance Card">
-	<img src="images/humana_4_bg_1024.jpg" title="Brand Applications" alt="Brand Applications">
+	<img data-src="images/humana_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
+	<img data-src="images/humana_2_bg_1024.jpg" title="Brochure Cover" alt="Brochure Cover">
+	<img data-src="images/humana_3_bg_1024.jpg" title="Insurance Card" alt="Insurance Card">
+	<img data-src="images/humana_4_bg_1024.jpg" title="Brand Applications" alt="Brand Applications">
 
 	</section>
 
@@ -88,5 +88,16 @@
 	</footer>
 
 </div>
+
+<script>
+	
+	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+        img.removeAttribute('data-src');
+    };
+});
+	
+</script>
 </body>
 </html>
