@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>				
+
+	<title>Dallas Fort Worth Airport Homepage: Tushar Gupte</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" type="text/css"  />
+
+</head>
+
+<body>
+
+	<header>
+
+		<ul>
+
+		<div id="nav_container">
+
+			<li class="nav_work">
+
+			<a href="work.html">Work</a>
+
+			</li>
+
+			<li class="nav_news">
+
+			<a href="#">News</a>
+
+			</li>
+			
+			<li class="nav_contact">
+
+			<a href="mailto:tushar.gupte@icoud.com">Contact</a>
+
+			</li>
+			
+			<li class="nav_resume"><a href="#">Resume</a>
+
+			</li>
+
+				<section class="title">4&mdash;Dallas Fort Worth Airport<br>
+				Homepage Redesign</section>
+
+		</div>
+
+		</ul>
+
+	</header>
+
+	<section id="description">
+
+		<p class="client">Client&mdash;Dallas Fort Worth Airport</p>
+		<p class="agency">Agency&mdash;Interbrand, San Francisco / New York</p>
+
+	</section>
+
+	<section id="main">
+
+		<img data-src="images/dfw_01_1024.jpg" title="DFW Homepage Desktop and Mobile" alt="DFW Homepage Desktop and Mobile">
+
+		<img data-src="images/dfw_02_1024.jpg" title="DFW Mobile Screens" alt="DFW Mobile Screens">
+
+	</section>
+
+	<section id="two_column" class="clearfix">
+
+		<aside id="left">
+		<p>Problem<p>
+		<p>Dallas Fort Worth airport went through a recent rebranding effort led by Interbrand NY. For first phase of the launch, a new website homepage was needed to showcase the new brand identity that is consistent with other branding touch-points. A full site redesign will be executed in the next phase.
+</p>
+		</aside>
+
+		<article id="right">
+		<p>Solution<p>
+		<p>Interbrand's design team was working on the branding guidelines document of the new airport identity. As part of their final presentation, a high-fidelity sketch of the homepage was approved by the client. The task was to take the concept forward into a deployment ready responsive homepage.</p>
+		</article>
+		
+	</section>
+
+	</section>
+
+	<footer>
+	
+	<p> 
+	Tushar Gupte&mdash;2016 
+	</p>
+
+	</footer>
+
+</div>
+
+<script>
+	
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+});
+</script>
+
+</body>
+</html>
