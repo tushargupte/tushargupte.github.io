@@ -104,6 +104,18 @@ li {
 	padding-bottom: 0.625em;
 }
 
+.left_arrow {
+	margin: -6% 1% 1% -1%;
+	font-size: 1.4em;
+	float: left;
+
+}
+
+.right_arrow {
+	margin: -6% .5% 1% 1%;
+	font-size: 1.4em;
+	float: right;
+}
 
 #main {
 	display: block;
@@ -197,14 +209,14 @@ img[data-src] {
 	float: left;
 	display: inline-block;
 	padding-right: 1em;
-	padding-left: 0;
+	margin-left: -.5%;
 }
 
 .nav_contact {
 	float: right;
 	display: inline-block;
 	padding-left: 1em;
-	padding-right: 0;
+	margin-right: .5%;
 }
 
 .nav_resume {
@@ -291,6 +303,18 @@ a:active {
 		background-color: rgba(242,242,242,.9);
 	}
 
+	.left_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
+	}
+
+	.right_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
+	}
+
 	.title {
 
 		padding-top: 1em;
@@ -351,7 +375,18 @@ a:active {
 	height: 8.85em;
 	background-color: rgba(242,242,242,.9);
 
-	
+	}
+
+	.left_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
+	}
+
+	.right_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
 	}
 
 	.title {
@@ -430,6 +465,18 @@ a:active {
 
 	header {
 		background-color: rgba(242,242,242,.9);
+	}
+
+	.left_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
+	}
+
+	.right_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
 	}
 
 	#description {
@@ -526,6 +573,18 @@ a:active {
 	#nav_container {
 		margin: 0 6% 0 5%;
 		font-size: 85%;
+	}
+
+	.left_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
+	}
+
+	.right_arrow {
+
+		padding-bottom: 1em;
+		margin-top: -2.75em;
 	}
 
 	#description {
