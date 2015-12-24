@@ -264,14 +264,11 @@ img[data-src] {
 footer {
 	font-family: "Neue Haas Unica W01 Light", sans-serif;	
 	font-size: 1em;
-	line-height: 135%;
 	text-align: center;
 	background-color: rgb(242,242,242);
 	padding-top: 2.5em;
 	padding-bottom: 3em;
-	display: block;
-	max-width: 54em;
-	margin: auto;
+	clear: both;
 }
 
 
@@ -366,13 +363,6 @@ a:active {
 		margin: 0 3% 1% 0;
 	}
 
-	footer {
-
-		font-size: 0.938em;
-		margin: 0 8% 0 8%;
-
-	}
-
 }
 
 
@@ -464,7 +454,6 @@ a:active {
 	footer {
 
 		font-size: 0.938em;
-		margin: 0 8% 0 8%;
 	}
 
 
@@ -562,9 +551,7 @@ a:active {
 
 	footer {
 
-		font-size: 85%;
-		margin: 0 8% 0 8%;
-
+		font-size: 0.938em;
 	}
 
 }
@@ -680,8 +667,7 @@ a:active {
 
 	footer {
 
-		font-size: 0.873em;
-		margin: 0 6% 0 6%;
+		font-size: 0.938em;
 	}
 
 
